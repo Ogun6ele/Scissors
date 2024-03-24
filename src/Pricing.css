@@ -1,0 +1,299 @@
+#pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 42px 176px 112px;
+  }
+  
+#pricing img{
+    width: 35px;
+    height: 48px;
+    margin: 0;
+    padding: 0
+  }
+  
+  .pricing-title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  
+  .pricing-title-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    text-align: center;
+  }
+  
+  .pricing-title-text h3{
+    color: #141414;
+    font-size: 40px;
+    font-family: Gilroy-Bold;
+  }
+  
+  .pricing-title-text p{
+    color: var(--text-color-main-text, #141414);
+    font-size: 16px;
+    font-family: Gilroy-Medium;
+    line-height: 24px;
+  }
+  
+  .pricing-options{
+    display: flex;
+    flex-direction: row;
+    margin: 68px 0;
+  }
+  
+  .pricing-list ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .pricing-basic, .pricing-teams{
+    height: 455px;
+    position: relative;
+    z-index: -100;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+    margin-top: 86px;
+    border-radius: 12px;
+    border: 0.4px solid var(--primary-400, #005AE2);
+    background: var(--neutral-white, #FFF);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+  }
+  
+  .pricing-basic{
+    margin-right: -40px;
+    padding: 24px 98px 45px 87px;
+  }
+  
+  .pricing-teams{
+    margin-left: -40px;
+    padding: 26px 66px 43px 86px;
+  }
+  
+  .pricing-basic h3{
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 24px;
+    font-family: Gilroy-Medium;
+    line-height: 32px;
+  }
+  
+  .pricing-basic-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .pricing-basic-amt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .pricing-basic-amt h2{
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 24px;
+    font-family: Gilroy-Medium;
+    line-height: 32px;
+  }
+  
+  .pricing-basic-amt p{
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    line-height: 32px;
+    width: 194px;
+    height: 32px;
+  }
+  
+  .pricing-basic-info ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  
+  .pricing-basic-info ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    width: 196px;
+    height: 24px;
+    color: var(--text-color-main-text, #141414);
+    text-align: flex-start;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+    line-height: 24px;
+  }
+  
+  .pricing-professional{
+    display: inline-flex;
+    padding: 95px 106px 148px 65px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 12px;
+    background: var(--linear-gradient, linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%));
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 100;
+    width: 410px;
+    height: 627px;
+  }
+  
+  .pricing-professional h3{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-size: 24px;
+    font-family: Gilroy-Medium;
+    line-height: 32px;
+  }
+  
+  .pricing-pro-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 239px;
+    height: 328px;
+  }
+
+  
+.pricing-pro-amt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .pricing-pro-amt h2{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-size: 40px;
+    font-family: Gilroy-Bold;
+    line-height: 48px;
+  }
+  
+  .pricing-pro-amt p{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    line-height: 32px;
+  }
+  
+  .pricing-pro-info ul{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  
+  }
+  
+  .pricing-pro-info ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 215px;
+    height: 24px;
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+    line-height: 24px;
+  }
+  
+  
+  .pricing-teams h3{
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 24px;
+    font-family: Gilroy-Medium;
+    line-height: 32px;
+    width: 72px;
+    height: 32px;
+  }
+  
+  .pricing-teams-info{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 227px;
+    height: 320px;
+  }
+  
+  .pricing-teams-amt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px; 
+  }
+  
+  .pricing-teams-amt h2{
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 40px;
+    font-family: Gilroy-Bold;
+    line-height: 48px;
+  }
+  
+  .pricing-teams-amt p{
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    line-height: 32px;
+  }
+  
+  .pricing-teams-info ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  
+  .pricing-teams-info ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-color-main-text, #141414);
+    text-align: flex-start;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+    line-height: 24px;
+    width: 212px;
+    height: 24px;
+  }
+  
+  .pricing-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 412px;
+    height: 48px;
+    gap: 12px;
+  }
+
+  .custom{
+    width: 200px;
+    height: 48px;
+    padding: 12px 24px;
+  }

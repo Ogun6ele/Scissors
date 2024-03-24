@@ -1,0 +1,36 @@
+.engagement{
+    display: flex;
+    padding: 60px 140px;
+    background: #F9FBFD;
+    gap: 120px;
+    margin: 0;
+}
+
+.engagement h2{
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.engagementNumber{
+    display: flex;
+}
+
+.engagementNumber-content{
+    display: flex;
+    gap: 72px;
+}
+
+.engagementNumber-content div{
+    padding: 0 4px;
+}
+
+.engagementNumber-content div h3{
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.engagementNumber-content div p{
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 145px;
+}

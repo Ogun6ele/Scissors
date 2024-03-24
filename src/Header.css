@@ -1,0 +1,22 @@
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em 4.6em
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: black;
+}
+
+nav .btncont-login{
+    display: flex;
+    gap: 20px;
+}
+

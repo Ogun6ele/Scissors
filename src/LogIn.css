@@ -1,0 +1,69 @@
+p{
+    font-size: 14px;
+    color:#A0B1C0;
+}
+
+
+.LogIn-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 50px;
+}
+
+.LogIn-container form .alternative-LogIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+.google-appleBtn{
+    display: flex;
+    gap: 16px;
+}
+
+.google-appleBtn .google,.google-appleBtn .apple{
+    width: 110px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 16px;
+} 
+
+.or{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.or img{
+    width: 100%;
+    height: 100%;
+    transform: translateY(10.5px);
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+input{
+    width: 462px;
+    height: 46px;
+    border: 2px solid  #0065FE;
+    border-radius: 4px;
+    padding: 8px 16px; 
+}
+
+input::placeholder{
+    color: #A0B1C0;
+}
+
+.forgot{
+    text-align: right;
+    margin: 8px 0;
+}
